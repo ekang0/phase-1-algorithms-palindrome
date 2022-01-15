@@ -1,0 +1,22 @@
+//1. create a function that will check to see if the input string is a palindrome - meaning it's the same word spelled forwards and backwards
+//2. some test case Examples - function only needs to test for lowercase strings that are letters
+  /*
+    testCaseOne: 'level'
+    testCaseTwo: 'rotor'
+    testCaseThree: 'yay'
+  */
+//3. pseudocode
+  /*
+    initialize a function called isPalindrome 
+      function takes in only one argument - create parameter for this
+        argument will be in the form of a string
+      code block to check to see if the argument is a palindrome
+        will need to loop through string forwards and backwards, save each loop into a variable and do an equality comparison of the two or can loop through string backwards, save to a variable and do an equality comparison to the argument
+        after checking to see if the argument/input is a palindrome write code to handle the result returned/output 
+          return true if it is a palindrome
+          return false if it is NOT a palindrome
+  */
+  //note- instructions don't specify if need to check if input is a string without special characters/spaces. // check input is a string - are we checking to see if it is a string? - if checking for a string create a test case where typeof input is a number to make sure it works. In function code block before checking to see if input/argument is palindrome write code to check to see typeof input is a string and handle accordingly after. 
+//4. code - completed
+//5. clean & readable
+//6. optimize - can maybe get rid of variable input
